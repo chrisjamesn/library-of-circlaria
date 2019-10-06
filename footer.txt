@@ -1,0 +1,15 @@
+<?php
+
+require_once("pages.php");
+
+$c=date('Y');
+
+echo "</div>
+<div class=\"footer\">
+<p>&copy; Christopher J Nutter, ".$c."</p>
+<p><a href=\"".$admin."\">Admin</a></p>
+</div>
+</body>
+</html>";
+
+?>
